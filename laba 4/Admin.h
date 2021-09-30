@@ -6,11 +6,10 @@ class Admin : public Human
 private:
 	std::string post;
 public:
-	int get_id();
-	int access_rights();
-	void set_post();
-	void get_post();
-	void set_access_rights(int);
+	Admin();
+	Admin(std::string, std::string, std::string, std::string, std::string, int, int);
+	void set_post(std::string);
+	std::string get_post();
 	void set_id(int);
-
+	void showinfo() override;
 };
