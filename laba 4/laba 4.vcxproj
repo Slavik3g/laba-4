@@ -150,6 +150,7 @@
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="libraries.h" />
+    <ClInclude Include="Money.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

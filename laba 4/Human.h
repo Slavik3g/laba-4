@@ -1,5 +1,4 @@
 #pragma once
-
 #include "libraries.h"
 
 class Human
@@ -9,8 +8,9 @@ private:
 	std::string pasword;
 	std::string name;
 	std::string pathranomic;
-	int id;
 	int age;
+protected:
+	int id;
 	int access_rights;
 public:
 	Human();
@@ -19,7 +19,11 @@ public:
 	std::string get_pasword();
 	std::string get_name();
 	std::string get_pathranomic();
-	int get_age();
+	void set_login(std::string);
+	void set_pasword(std::string);
+	void set_name(std::string);
+	void set_pathranomic(std::string);
+	void set_age(int);
 
 
 
