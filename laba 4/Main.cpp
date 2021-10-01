@@ -1,20 +1,19 @@
 #include "libraries.h"
-#include "Human.h"
 #include "Admin.h"
 #include "User.h"
-
-
 int main()
+
 {
 	setlocale(0, "");
+	srand(time(NULL));
 	int choose;
-	Admin admins;
-	User users;
+	std:: vector <People::Admin> admins;
+	std::vector <People::User> users;
 	while (1)
 	{
 		chooseinstr();
 		choose = getintValue();
-		perfomance(, choose);
+		perfomance(admins, users, choose);
 	}
 	return 0;
 }

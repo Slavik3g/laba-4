@@ -1,35 +1,35 @@
 #include "Admin.h"
 
-Admin::Admin(std::string post, std::string login, std::string pasword, std::string name, std::string pathranomic, int age, int id):Human(login, pasword, name, pathranomic, age, id)
+People::Admin::Admin(std::string post, std::string login, std::string pasword, std::string name, std::string pathranomic, int age, int id):Human(login, pasword, name, pathranomic, age, id)
 {
 	this->post = post;
 }
 
-Admin::Admin() : Human()
+People::Admin::Admin() : Human()
 {
-	this->post = nullptr;
 }
 
-void Admin::set_id(int id)
+void People::Admin::set_id(int id)
 {
 	this->id = id;
 }
 
-void Admin::set_post(std::string post)
+void People::Admin::set_post(std::string post)
 {
 	this->post = post;
 }
 
-std::string Admin::get_post()
+std::string People::Admin::get_post()
 {
-	return this->post;
+	return post;
 }
 
-void Admin::showinfo()
+void People::Admin::showinfo()
 {
 	std::cout << "Имя:" << get_name() << std::endl;
 	std::cout << "Фамилия:" << get_pathranomic() << std::endl;
 	std::cout << "Логин:" << get_login() << std::endl;
 	std::cout << "Пароль:" << get_pasword() << std::endl;
 	std::cout << "Должность:" << this->post << std::endl;
+	std::cout << "Id:" << get_id() << std::endl;
 }
