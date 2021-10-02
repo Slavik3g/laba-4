@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <Windows.h>
 namespace People
 {
 	class Admin;

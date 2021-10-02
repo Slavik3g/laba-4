@@ -14,6 +14,7 @@ namespace People
 		void set_money(int);
 		void set_card_number(int);
 		void showinfo();
+		void addmoney(int);
 		/*friend std::istream& operator>> (std::istream&, const User&);*/
 	};
 }

@@ -2,8 +2,8 @@
 #include "Admin.h"
 #include "User.h"
 int main()
-
 {
+	srand(time(NULL));
 	setlocale(0, "");
 	srand(time(NULL));
 	int choose;

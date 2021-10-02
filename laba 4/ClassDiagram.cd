@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="People::Human">
-    <Position X="1.75" Y="0.5" Width="2.25" />
+    <Position X="3.25" Y="0.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAQIAEAAAAAQAAQAAIAAAAEAAAEAAAAgAAoCIyAUgA=</HashCode>
       <FileName>Human.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="People::User">
-    <Position X="3.75" Y="6" Width="1.75" />
+    <Position X="6.75" Y="6" Width="1.75" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAQAAgBAIAAAAAAAQAEAA=</HashCode>
       <FileName>User.h</FileName>
