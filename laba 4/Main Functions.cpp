@@ -287,7 +287,7 @@ void perfomance(std::vector <People::Admin> &admins, std::vector <People::User>&
 		break;
 	case 4:
 		system("CLS");
-		chageinfo();
+		/*chageinfo();*/
 		break;
 	case 5:
 		system("CLS");
