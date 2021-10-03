@@ -257,8 +257,6 @@ void deletehuman(std::vector <People::Admin>& admins, std::vector <People::User>
 	}
 }
 
-
-
 void changeinfoinstr()
 {
 	std::cout << "¬ведите 1 чтобы изменить им€" << std::endl;

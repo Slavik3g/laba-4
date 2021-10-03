@@ -31,5 +31,5 @@ void People::Admin::showinfo()
 	std::cout << "Логин:" << get_login() << std::endl;
 	std::cout << "Пароль:" << get_pasword() << std::endl;
 	std::cout << "Должность:" << this->post << std::endl;
-	std::cout << "Id:" << get_id() << std::endl;
+	std::cout << "Id:" << get_id() << std::endl << std::endl;
 }

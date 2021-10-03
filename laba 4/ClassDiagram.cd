@@ -15,9 +15,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="People::User">
-    <Position X="6.75" Y="6" Width="1.75" />
+    <Position X="6.5" Y="6" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAQAAgBAIAAAAAAAQAEAA=</HashCode>
+      <HashCode>QAABAAIAAAAAAAAAAAAAAAAAQAAgBAIAAAAAAAQAEAA=</HashCode>
       <FileName>User.h</FileName>
     </TypeIdentifier>
   </Class>
