@@ -63,7 +63,7 @@ void addHuman(People::Admin &admin)
 void addHuman(People::User& user)
 {
 	std::string temp_str;
-	int temp_int;
+	int temp_int, temp_int2;
 	std::cout << "¬ведите им€:" << std::endl;
 	std::cin >> temp_str;
 	user.set_name(temp_str);
@@ -81,7 +81,9 @@ void addHuman(People::User& user)
 	user.set_age(temp_int);
 	std::cout << "¬ведите номер карты:" << std::endl;
 	temp_int = getintValue();
-	user.set_card_number(temp_int);
+	std::cout << "¬ведите cvv код:" << std::endl;
+	temp_int2 = getintValue();
+	user.set_card_info(temp_int, temp_int2);
 }
 void addId(People::Admin& admin, std::vector <People::Admin>& admins, std::vector <People::User> users)
 {

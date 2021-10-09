@@ -1,24 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="People::Admin">
-    <Position X="0.5" Y="6" Width="2.25" />
+    <Position X="3.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAEAAAAAAgAAAAAAARAAAA=</HashCode>
       <FileName>Admin.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="People::Human">
-    <Position X="3.25" Y="0.5" Width="2.25" />
+  <Class Name="People::Human" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQIAEAAAAAQAAQAAIAAAAEAAAEAAAAgAAoCIyAUgA=</HashCode>
       <FileName>Human.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="People::User">
-    <Position X="6.5" Y="6" Width="1.75" />
+    <Position X="8.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAABAAIAAAAAAAAAAAAAAAAAQAAgBAIAAAAAAAQAEAA=</HashCode>
+      <HashCode>AABBIAIAAAAAAAAAAAAAAAAAQAAgAQIAAAAAAAQAEAA=</HashCode>
       <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="People::card_info">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAAAAAAAAAAAAAEAAABAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card_info.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

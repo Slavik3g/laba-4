@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Class Admin.cpp" />
+    <ClCompile Include="Class Card Info.cpp" />
     <ClCompile Include="Class Human.cpp" />
     <ClCompile Include="Class User.cpp" />
     <ClCompile Include="Main Functions.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
+    <ClInclude Include="Card_info.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="libraries.h" />
     <ClInclude Include="User.h" />

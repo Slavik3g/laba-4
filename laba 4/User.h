@@ -1,4 +1,5 @@
 #include "Human.h"
+#include "Card_info.h"
 
 namespace People
 {
@@ -6,14 +7,15 @@ namespace People
 	{
 	private:
 		int money;
-		int card_number;
+		card_info inf;
 	public:
 		User();
-		User(std::string, std::string, std::string, std::string, int, int, int, int);
-		int get_money();
-		int get_card_number();
-		void set_money(int);
+		User(std::string, std::string, std::string, std::string, int, int, int, int, int);
+		void set_card_info(int, int);
+		void set_ccv_code(int);
 		void set_card_number(int);
+		int get_money();
+		void set_money(int);
 		void showinfo();
 		void addmoney(int);
 	};

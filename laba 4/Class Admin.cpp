@@ -5,7 +5,7 @@ People::Admin::Admin(std::string post, std::string login, std::string pasword, s
 	this->post = post;
 }
 
-People::Admin::Admin() : Human()
+People::Admin::Admin()
 {
 }
 
