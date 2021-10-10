@@ -435,7 +435,9 @@ void chageinfo(std::vector <People::Admin>& admins, std::vector <People::User>& 
 				}
 				users[i].set_login(changed);
 				return;
+			
 			}
+			
 			else if (choose == 4)
 			{
 				std::cout << "¬ведите новый пароль" << std::endl;

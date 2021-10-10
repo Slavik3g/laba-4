@@ -20,6 +20,9 @@
       <HashCode>AABBIAIAAAAAAAAAAAAAAAAAQAAgAQIAAAAAAAQAEAA=</HashCode>
       <FileName>User.h</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inf" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="People::card_info">
     <Position X="8.5" Y="6.5" Width="1.5" />
